@@ -1,15 +1,15 @@
-##🙋‍♂️ Author
+#🙋‍♂️ Author
 
 Name: Jamal El Asri
 
 GitHub: @jamal-elasri
 
-##🌐 License
+#🌐 License
 This project is licensed under the MIT License.
 Feel free to use, modify, and distribute this code with attribution.
 
 
-##📣 Acknowledgements
+#📣 Acknowledgements
 Inspiration from modern scroll-driven websites.
 
 Animation techniques inspired by GSAP's official demos.
@@ -25,13 +25,13 @@ Locomotive Scroll library for beautiful scroll experience.
 
 ---
 
-## 🎯 Overview
+# 🎯 Overview
 
 This project is a modern and dynamic 3D model-based scroll website. It combines technologies like Locomotive Scroll, GSAP's ScrollTrigger, and HTML5 Canvas to create an animated visual storytelling experience. As users scroll, a 3D character model animates frame-by-frame, providing an engaging and futuristic vibe. The page is divided into several pinned sections with smooth transitions and responsive layout.
 
 ---
 
-## 🧰 Tech Stack
+# 🧰 Tech Stack
 
 - **HTML5**
 - **CSS3**
@@ -43,7 +43,7 @@ This project is a modern and dynamic 3D model-based scroll website. It combines 
 
 ---
 
-## 🚀 Features
+# 🚀 Features
 
 - 📜 **Scroll-driven 3D animation** (frame-by-frame on canvas)
 - 🎞️ **300+ frame preloaded PNG sequence** representing 3D character animation
@@ -54,7 +54,7 @@ This project is a modern and dynamic 3D model-based scroll website. It combines 
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 3D_Model_Website/
 ├── 3D_model/
 │ ├── index.html
@@ -71,23 +71,23 @@ This project is a modern and dynamic 3D model-based scroll website. It combines 
 
 ---
 
-## 📸 Screenshots
+# 📸 Screenshots
 
 > ![Preview](https://jamal-elasri.github.io/3D_Model_Website/preview.png)
 > *(Consider adding a `preview.png` file to visually represent the website)*
 
 ---
 
-## 🛠️ Installation & Usage
+# 🛠️ Installation & Usage
 
-### 📦 Clone the repository
+# 📦 Clone the repository
 
 ```bash
 git clone https://github.com/jamal-elasri/3D_Model_Website.git
 cd 3D_Model_Website/3D_model
 ```
 
-##📌 Dependencies (CDNs)
+#📌 Dependencies (CDNs)
 <!-- Locomotive Scroll -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
 <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
@@ -96,7 +96,7 @@ cd 3D_Model_Website/3D_model
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
 
-##💡 Customization Tips
+#💡 Customization Tips
 ✏️ You can replace the current 3D character frames with your own (just maintain the naming format).
 
 🎨 Modify colors, fonts, and layout in style.css.
@@ -104,7 +104,7 @@ cd 3D_Model_Website/3D_model
 🧩 Add more sections or interactive elements to enhance user engagement.
 
 
-##⚙️ How It Works
+#⚙️ How It Works
 On page scroll, GSAP updates the imageSeq.frame variable.
 
 The render() function draws the appropriate PNG image to the canvas, simulating a 3D animation.
